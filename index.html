@@ -1,0 +1,775 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>KARTARINA SHOP</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://unpkg.com/feather-icons"></script>
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+        <link rel="shortcut icon" type="image/png" href="img/logo.png"/>
+	
+    </head>
+
+    <body onload="thongbaopopup()">
+      <div class="tbpopup" id="tbpopup-1">
+        <div class="tboverlay"></div>
+        <div class="tbcontent">
+        <div class="tbclose-btn" onclick="thongbaopopup()">&times;</div>
+        <div class="content1" style="font-size:30px;font-weight:bold; height: 35px;">Chào mừng bạn đến với</div>
+        <div class="content2" style="font-size:50px;font-weight:bold; color: rgb(255, 196, 0);">K-SHOP</div>
+        <p class="p2">Cảm ơn bạn đã ghé thăm tiệm bánh, nhập mã "KarinaS1TG" để được giảm 50% cho đơn đầu tiên và 20% cho đơn thứ 10 nhé!</p>
+        </div>
+        </div>
+        <header>
+            <!-- place navbar here -->
+                      <nav class="navbar fixed-top navbar-expand" style="height: 60px; background-color:#687EFF;">                      
+                        <div class="container-fluid">
+                 <a class="navbar-brand" href="#">
+                        <img src="img/logo.png" alt="..." width="50px">
+                      </a>
+                  <a class="navbar-brand nb1" href="#" style="width: 310px;"><b>KATARINA CAKE STORE</b></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                      <li class="nav-item"  style="width: 145px;">
+                        <a class="nav-link" aria-current="page" href="#">Trang chủ</a>
+                      </li>
+                      <li class="nav-item" style="width: 150px;">
+                        <a class="nav-link" href="#gthieu">Giới thiệu</a>
+                      </li>
+                      <li class="nav-item dropdown"  style="width: 160px;">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Loại bánh </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item" href="#">Bánh ngọt</a></li>
+                          <li><a class="dropdown-item" href="#">Mochi</a></li>
+                          <li><a class="dropdown-item" href="#">Cơm nắm</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item" style="width: 140px;">
+                        <a class="nav-link" href="#">Liên hệ</a>
+                      </li>
+                      <li class="nav-item" style="width:30px; margin-top: 6px;margin-left: 20px;">
+                        <i data-feather="shopping-bag"></i>
+                        <script>
+                          feather.replace();
+                        </script>
+                        </li>
+                        <li class="nav-item" style="width: 150px;">
+                          <a class="nav-link" href="#">Đơn hàng</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                      <input class="form-control me-2" type="search" placeholder="Nhập từ khóa" aria-label="Search">
+                      <button class="btn btn-outline-dark" type="submit">Tìm</button>
+                    </form>
+                  </div>
+                </div>
+              </nav>
+        </header>
+        <main>
+ <br>
+ <br>
+ <br>
+ <br>
+
+       <!-- carousel -->
+              <div class="container">
+                          <div id="carouselExampleAutoplaying" class="carousel slide">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="img/bg3.png" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/bg1.png" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/bg2.png" class="d-block w-100" alt="...">
+                      <div class="carousel-caption d-none d-md-block">
+                        </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+              </div>
+              <!-- gạch -->
+              <hr>
+               <!-- video nè -->
+            <div class="container-fluid text-center mt-5 ">
+              <section class="showcase" >
+                <video src="img/v1.mp4" autoplay loop muted></video>
+                <H1 class="title">Welcome Kartarina Cake Store</H1>
+              </section>
+            </div>
+            <br>
+            <br>
+          
+            <!-- dòng ngang -->
+            <div class="container-fluid text-center">
+              <img src="img/line.png" style="width: 530PX;">
+              <p class="pmcb"><b>BÁNH CỦA TUẦN</b></p><HR style="width: 40%; margin: auto; height: 10PX;">
+            </div>
+                   <!-- cái 1 nè -->
+            <div class="container mt-5">
+                <div class="row"  style="margin: auto;">
+                            <div class="col">
+                        <div class="card" style="border-radius: 15px 15px; border-color: #687EFF; border-width: 5px;width: 18rem;">
+                          <div class="card-header" style="background-color: #687EFF;">
+                            <img src="img/best.png" style="width:35%;justify-content: center; margin-top: -30PX;"><H6 style="color: aliceblue; margin-top: -55PX; margin-left: 95PX; font-size: 20PX;font-family: 'Courier New', Courier, monospace;"><B>BEST SELLER</B></H6>
+                          </div>
+                          <img src="img/cr1.jpg" class="card-img-top" alt="..." height="200px">
+                            <div class="card-body">
+                              <h5 class="card-title">Mochi Mèo dâu</h5>
+                              <!-- gía nè -->
+                              <div class="row">
+                                <div class="col-4"> <h5 class="gia1">99.000đ</h5></div>
+                               <div class="col-7"> <h5 class="gia2">79.000đ</h5>       </div>                                                   
+                              </div>  
+                              <!-- mô tả -->
+                              <p class="card-text">Bánh Mochi Mèo Dâu là sự kết hợp hoàn hảo giữa vị ngọt của dâu và độ mềm mịn của bánh mochi, tạo nên một món tráng miệng thơm ngon và lạ miệng.</p>
+                              <a  class="btn btn-primary" id="btn-1">Mua ngay</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="border-radius: 15px 15px; border-color: #687EFF; border-width: 5px; width: 18rem;" >
+                          <div class="card-header" style="background-color: #687EFF;">
+                            <img src="img/best.png" style="width:35%;justify-content: center; margin-top: -30PX;"><H6 style="color: aliceblue; margin-top: -55PX; margin-left: 95PX; font-size: 20PX;font-family: 'Courier New', Courier, monospace;"><B>BEST SELLER</B></H6>
+                          </div>
+                            <img src="img/cr2.jpg" class="card-img-top" alt="..." height="200px">
+                            <div class="card-body">
+                              <h5 class="card-title">Mochi Bí đỏ</h5>
+                              <!-- giá nè -->
+                              <div class="row">
+                                <div class="col-4"> <h5 class="gia1">89.000đ</h5></div>
+                               <div class="col-7"> <h5 class="gia2">59.000đ</h5>       </div>                                                      
+                              </div>  
+                              <!-- mô tả -->
+                              <p class="card-text">Bánh Mochi Bí Đỏ là một món tráng miệng truyền thống với lớp bột mochi mềm mịn bên ngoài và nhân bí đỏ thơm ngon bên trong, độc đáo và hấp dẫn.</p>
+                              <a class="btn btn-primary" id="btn-2">Mua ngay</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card" style="border-radius: 15px 15px; border-color: #687EFF; border-width: 5px;width: 18rem;">
+                          <div class="card-header" style="background-color: #687EFF;">
+                            <img src="img/best.png" style="width:35%;justify-content: center; margin-top: -30PX;"><H6 style="color: aliceblue; margin-top: -55PX; margin-left: 95PX; font-size: 20PX;font-family: 'Courier New', Courier, monospace;"><B>BEST SELLER</B></H6>
+                          </div>
+                          <img src="img/cr3.jpg" class="card-img-top" alt="..." height="200px">
+                            <div class="card-body">
+                              <h5 class="card-title">Mochi Đào</h5>
+                              <!-- giá nè -->
+                              <div class="row">
+                                <!-- <img src="img/sale.png" style="width: 50%; margin-left: 150px; margin-top: -170px; position:absolute;"> -->
+                                <div class="col-4"> <h5 class="gia1">119.000đ</h5></div>                                
+                               <div class="col-7"> <h5 class="gia2">49.000đ</h5> </div>      
+                                                                     
+                              </div>  
+                              <!-- mô tả -->
+                              <p class="card-text" >Vị đào tươi mát và hương thơm tự nhiên tạo nên một hương vị tuyệt vời, kết hợp với độ mềm mịn của bánh mochi tạo nên một trải nghiệm ẩm thực độc đáo và thú vị.</p>
+                              <a  class="btn btn-primary" id="btn-3">Mua ngay</a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                      <div class="card" style="border-radius: 15px 15px; border-color: #687EFF; border-width: 5px;width: 18rem;">
+                        <div class="card-header" style="background-color: #687EFF;">
+                          <img src="img/best.png" style="width:35%;justify-content: center; margin-top: -30PX;"><H6 style="color: aliceblue; margin-top: -55PX; margin-left: 95PX; font-size: 20PX;font-family: 'Courier New', Courier, monospace;"><B>BEST SELLER</B></H6>
+                        </div> 
+                        <img src="img/k7.jpg" class="card-img-top" alt="..." height="200px">
+                          <div class="card-body">
+                            <h5 class="card-title">Mochi Quà tất Noel</h5>
+                            <!-- ---giá -->
+                            <div class="row">
+                              <div class="col-4"> <h5 class="gia1">129.000đ</h5></div>
+                             <div class="col-7"> <h5 class="gia2">99.000đ</h5>       </div>                                                  
+                            </div>   
+                            <!-- mô tả -->
+                            <p class="card-text">Bánh Mochi Noel là một loại bánh đặc biệt. Với nhân ngẫu nhiên như hạnh nhân, trái cây sấy, sô cô la... bánh mochi giáng sinh mang lại sự thú vị và cảm giác ấm cúng. </p>
+                            <a  class="btn btn-primary" id="btn-4">Mua ngay</a>
+                          </div>
+                        </div>
+                  </div>
+                </div>
+            </div>
+  <br>
+<br>
+<!-- thanh toán nè -->
+<div class="container-fluid" style="text-align: center;">
+  <button class="btn btn-success" id="btn-10"><a style="text-decoration: none; color: #ffffff;" href="#formne">Đến khu vực thanh toán</a></button>
+</div>
+<br>
+  <!-- dòng ngang -->
+  <div class="container-fluid text-center">
+    <img src="img/line.png" style="width: 530PX;">
+    <p class="pmcb"><b>SẢN PHẨM MỚI RA LÒ</b></p><HR style="width: 40%; margin: auto; height: 10PX;">
+  </div>
+  <!-- CÁI T2 -->
+  <div class="container mt-5">
+    <div class="row"  style="margin: auto;">
+                <div class="col">
+            <div class="card" style="border-radius: 15px 15px; border-color: #687EFF; border-width: 5px;width: 18rem;">
+              <div class="card-header" style="background-color: #687EFF;">
+                <img src="img/NEW.png" style="width:35%;justify-content: center; margin-top: -30PX;"><H6 style="color: aliceblue; margin-top: -55PX; margin-left: 95PX; font-size: 20PX;font-family: 'Courier New', Courier, monospace;"><B>NEWEST</B></H6>
+              </div>
+              <img src="img/k6.jpg" class="card-img-top" alt="..." height="200px">
+                <div class="card-body">
+                  <h5 class="card-title">Socola Chibi</h5>
+                  <!-- giá nè -->
+                <h5 class="gia3 text-center">69.000đ</h5>  
+                  <!-- mô tả -->
+                  <p class="card-text">Socola Chibi là sản phẩm nhỏ xinh với hình dáng đáng yêu, hương vị socola ngọt ngào và thỏa mãn đam mê của bạn với chỉ một viên.</p>
+                  <a  class="btn btn-primary" id="btn-5">Mua ngay</a>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card" style="border-radius: 15px 15px; border-color: #687EFF; border-width: 5px; width: 18rem;" >
+              <div class="card-header" style="background-color: #687EFF;">
+                <img src="img/NEW.png" style="width:35%;justify-content: center; margin-top: -30PX;"><H6 style="color: aliceblue; margin-top: -55PX; margin-left: 95PX; font-size: 20PX;font-family: 'Courier New', Courier, monospace;"><B>NEWEST</B></H6>
+              </div>
+                <img src="img/k8.jpg" class="card-img-top" alt="..." height="200px">
+                <div class="card-body">
+                  <h5 class="card-title">Cơm nắm đóng hộp</h5>
+                  <!-- giá nè -->
+                <h5 class="gia3 text-center">99.000đ</h5> 
+                  <!-- mô tả -->
+                  <p class="card-text">Cơm nắm đóng hộp: món ăn truyền thống với cơm nắm trắng, cá hồi, mắm nêm và rau sống, tiện lợi và ngon miệng.</p>
+                  <a  class="btn btn-primary" id="btn-6">Mua ngay</a>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card" style="border-radius: 15px 15px; border-color: #687EFF; border-width: 5px;width: 18rem;">
+              <div class="card-header" style="background-color: #687EFF;">
+                <img src="img/NEW.png" style="width:35%;justify-content: center; margin-top: -30PX;"><H6 style="color: aliceblue; margin-top: -55PX; margin-left: 95PX; font-size: 20PX;font-family: 'Courier New', Courier, monospace;"><B>NEWEST</B></H6>
+              </div>
+              <img src="img/cr4.jpg" class="card-img-top" alt="..." height="200px">
+                <div class="card-body">
+                  <h5 class="card-title">Mochi sương sáo</h5>
+                  <!-- giá nè -->
+                <h5 class="gia3 text-center">99.000đ</h5> 
+                  <!-- mô tả -->
+                  <p class="card-text">Bánh mochi truyền thống với nước sương sáo thơm ngon, mát lạnh, tạo nên một trải nghiệm ẩm thực độc đáo.</p>
+                  <a  class="btn btn-primary" id="btn-7">Mua ngay</a>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+          <div class="card" style="border-radius: 15px 15px; border-color: #687EFF; border-width: 5px;width: 18rem;">
+            <div class="card-header" style="background-color: #687EFF;">
+              <img src="img/NEW.png" style="width:35%;justify-content: center; margin-top: -30PX;"><H6 style="color: aliceblue; margin-top: -55PX; margin-left: 95PX; font-size: 20PX;font-family: 'Courier New', Courier, monospace;"><B>NEWEST</B></H6>
+            </div> 
+            <img src="img/cr5.jpg" class="card-img-top" alt="..." height="200px">
+              <div class="card-body">
+                <h5 class="card-title">Mochi nướng sốt caramel</h5>
+               <!-- giá nè -->
+                <h5 class="gia3 text-center">99.000đ</h5> 
+              <!-- mô tả -->
+              <p class="card-text">Bánh mochi truyền thống được nướng giòn và trang trí với sốt caramel ngọt ngào, mang đến hương vị đặc biệt và thú vị.</p>
+              <a  class="btn btn-primary" id="btn-8">Mua ngay</a>
+              </div>
+            </div>
+      </div>
+    </div>
+</div>
+<br>
+<br>
+
+<!-- thanh toán nè -->
+<div class="container-fluid" style="text-align: center;">
+  <button class="btn btn-success" id="btn-10"><a style="text-decoration: none; color: #ffffff;" href="#formne">Đến khu vực thanh toán</a></button>
+</div>
+<br>
+<BR>
+<!-- dòng ngang -->
+<div class="container-fluid text-center">
+  <img src="img/line.png" style="width: 530PX;">
+  <p class="pmcb"><b>2024 NEW YEAR EVENT</b></p><HR style="width: 40%; margin: auto; height: 10PX;">
+</div>
+          <br>
+            <div class="container-fluid">
+              <div class="row content-center">
+                <div class="col"><img class="imbn" src="img/c1.jpg"></div>
+                <div class="col"><img class="imbn" src="img/c2.jpg"></div>
+                <div class="col"><img class="imbn" src="img/c3.jpg"></div>
+              </div>
+             </div>
+             <br>
+
+             <!-- full sản phẩm nè -->
+             <!-- dòng ngang -->
+             <div class="container-fluid text-center">
+              <img src="img/line.png" style="width: 530PX;">
+              <p class="pmcb"><b>CÁC LOẠI BÁNH KHÁC CỦA NHÀ K</b></p><HR style="width: 40%; margin: auto; height: 10PX;">
+            </div>
+            <!-- ---dô sp -->
+            <div class="container" style="width: auto;">
+              <div class="row">
+              
+                <div class="col-3 text-center " style="background-color: #687EFF; border-radius: 10px 10px;">
+                  <br>
+                  <aside style="width: auto;">
+                    <p  style="font-family: 'Courier New', Courier, monospace; color: #FEFFAC; font-weight: bold;">Khoảng giá</p>
+                        <!-- giá nè -->
+                        <div class="row">
+                          <div class="col">
+                            <a class="csstien">0đ</a>
+                          </div>
+                          <div class="col">
+                            <a class="csstien">999.000đ</a>
+                          </div>
+                        </div>
+                        <!-- hết 2 cái giá -->
+                        <br>
+                        <!-- cái thanh trượt -->
+                        <label for="customRange2" class="form-label" style="font-family: 'Courier New', Courier, monospace; font-weight: bold; color: #FEFFAC;">Chọn tầm giá</label>
+                  <input type="range" class="form-range" min="0" max="999" id="customRange2">
+                  <!-- cái gạch -->
+                  <hr style="color: #FEFFAC;">
+                  <!-- cái pahan loại -->
+                  <p class="cotgia">Phân loại</p>
+                  <ul style="list-style: none; text-align: left;">
+                  <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                  Combo gia đình
+                  </label>
+                  </div>
+                  <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                  Combo độc thân
+                  </label>
+                  </div>
+                  <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                  Combo quà tặng
+                  </label>
+                  </div>
+                  </ul>
+                  <!-- cái dịch vụ -->
+                  <hr style="color: #FEFFAC;">
+                  <p class="cotgia">Dịch vụ</p>
+                  <ul style="list-style: none; text-align: left;">
+                  <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                  Giao nhanh 2H
+                  </label>
+                  </div>
+                  <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                  Gói quà
+                  </label>
+                  </div>
+                  <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                  Bảo quản lâu
+                  </label>
+                  </div>
+                  </ul>
+                  <br>
+                  <hr style="color: #FEFFAC;">
+                  <br>
+                  <img src="img/bn1.png" style="width: 90%; border-radius: 10px 10px;">
+                  <br>
+                  <br>
+                  <hr style="color: #FEFFAC;">
+                  <br>
+                  <img src="img/qr.png" style="width: 90%; border-radius: 10px 10px;">
+                  <p></p>
+                  </div>
+                    </aside>
+<!-- cái cột hàng èn -->
+                <div class="col-9 text-center" style="justify-content: center; font-size: 20px;">
+                  <div class="container">
+                    <div class="row content-center" style="background-color: #687EFF; font-family: 'Courier New', Courier, monospace;">
+                     <!-- dô col nè -->
+                      <div class="col-3" style="border-radius: 10px 10px;">
+                        <p>Pudding</p>
+                        <div class="card" style=" border-color: #687EFF;">
+                          <img src="img/k11.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title" style="font-size: 10px; transform: none;">Pudding Truyền thống</h5>
+                              <!-- giá nè -->
+                            <h5 style="font-size: 10px;">99.000đ</h5> 
+                              <!-- mô tả -->
+                              <p class="card-text" style="font-size: 10px;">Bánh mochi truyền thống với nước sương sáo thơm ngon,<br> mát lạnh, tạo nên một trải nghiệm ẩm thực độc đáo.</p>
+                              <a class="btn btn-primary" id="btn-7">Mua ngay</a>
+                            </div>
+                          </div>
+                          <!-- card2 -->
+                          <br>
+                          <div class="card" style=" border-color: #687EFF;">
+                            <img src="img/k12.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title" style="font-size: 10px; transform: none;">Pudding Truyền thống</h5>
+                                <!-- giá nè -->
+                              <h5 style="font-size: 10px;">99.000đ</h5> 
+                                <!-- mô tả -->
+                                <p class="card-text" style="font-size: 10px;">Bánh mochi truyền thống với nước sương sáo thơm ngon, mát lạnh, tạo nên một trải nghiệm ẩm thực độc đáo.</p>
+                                <a class="btn btn-primary" id="btn-7">Mua ngay</a>
+                              </div>
+                            </div>
+                            <!-- card3 -->
+                          <br>
+                          <div class="card" style=" border-color: #687EFF;">
+                            <img src="img/k13.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title" style="font-size: 10px; transform: none;">Pudding Truyền thống</h5>
+                                <!-- giá nè -->
+                              <h5 style="font-size: 10px;">99.000đ</h5> 
+                                <!-- mô tả -->
+                                <p class="card-text" style="font-size: 10px;">Bánh mochi truyền thống với nước sương sáo thơm ngon, mát lạnh, tạo nên một trải nghiệm ẩm thực độc đáo.</p>
+                                <a class="btn btn-primary" id="btn-7">Mua ngay</a>
+                              </div>
+                            </div>
+                            
+                            <!-- cbi hết col nè -->
+                      </div>
+                      
+                      <div class="col-3">
+                        <p>Pancake</p>
+                        <div class="card" style=" border-color: #687EFF;">
+                          <img src="img/k15.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title" style="font-size: 10px; transform: none;">Pudding Truyền thống</h5>
+                              <!-- giá nè -->
+                            <h5 style="font-size: 10px;">99.000đ</h5> 
+                              <!-- mô tả -->
+                              <p class="card-text" style="font-size: 10px;">Bánh mochi truyền thống với nước sương sáo thơm ngon, mát lạnh, tạo nên một trải nghiệm ẩm thực độc đáo.</p>
+                              <a class="btn btn-primary" id="btn-7">Mua ngay</a>
+                            </div>
+                          </div>
+                          <!-- card2 -->
+                          <br>
+                          <div class="card" style=" border-color: #687EFF;">
+                            <img src="img/k16.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title" style="font-size: 10px; transform: none;">Pudding Truyền thống</h5>
+                                <!-- giá nè -->
+                              <h5 style="font-size: 10px;">99.000đ</h5> 
+                                <!-- mô tả -->
+                                <p class="card-text" style="font-size: 10px;">Bánh mochi truyền thống với nước sương sáo thơm ngon, mát lạnh, tạo nên một trải nghiệm ẩm thực độc đáo.</p>
+                                <a class="btn btn-primary" id="btn-7">Mua ngay</a>
+                              </div>
+                            </div>
+                            <!-- card2 -->
+                          <br>
+                          <div class="card" style=" border-color: #687EFF;">
+                            <img src="img/k17.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title" style="font-size: 10px; transform: none;">Pudding Truyền thống</h5>
+                                <!-- giá nè -->
+                              <h5 style="font-size: 10px;">99.000đ</h5> 
+                                <!-- mô tả -->
+                                <p class="card-text" style="font-size: 10px;">Bánh mochi truyền thống với nước sương sáo thơm ngon, mát lạnh, tạo nên một trải nghiệm ẩm thực độc đáo.</p>
+                                <a class="btn btn-primary" id="btn-7">Mua ngay</a>
+                              </div>
+                            </div>
+                            
+                      </div>
+                      <!-- ---col2 nè -->
+                      <div class="col-3">
+                        <p>Món Mặn</p>
+                        <div class="card" style=" border-color: #687EFF;">
+                          <img src="img/k18.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title" style="font-size: 10px; transform: none;">Pudding Truyền thống</h5>
+                              <!-- giá nè -->
+                            <h5 style="font-size: 10px;">99.000đ</h5> 
+                              <!-- mô tả -->
+                              <p class="card-text" style="font-size: 10px;">Bánh mochi truyền thống với nước sương sáo thơm ngon, mát lạnh, tạo nên một trải nghiệm ẩm thực độc đáo.</p>
+                              <a class="btn btn-primary" id="btn-7">Mua ngay</a>
+                            </div>
+                          </div>
+                          <!-- card2 -->
+                          <br>
+                          <div class="card" style=" border-color: #687EFF;">
+                            <img src="img/k19.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title" style="font-size: 10px; transform: none;">Pudding Truyền thống</h5>
+                                <!-- giá nè -->
+                              <h5 style="font-size: 10px;">99.000đ</h5> 
+                                <!-- mô tả -->
+                                <p class="card-text" style="font-size: 10px;">Bánh mochi truyền thống với nước sương sáo thơm ngon, mát lạnh, tạo nên một trải nghiệm ẩm thực độc đáo.</p>
+                                <a class="btn btn-primary" id="btn-7">Mua ngay</a>
+                              </div>
+                            </div>
+                            <!-- card2 -->
+                          <br>
+                          <div class="card" style=" border-color: #687EFF;">
+                            <img src="img/k20.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title" style="font-size: 10px; transform: none;">Pudding Truyền thống</h5>
+                                <!-- giá nè -->
+                              <h5 style="font-size: 10px;">99.000đ</h5> 
+                                <!-- mô tả -->
+                                <p class="card-text" style="font-size: 10px;">Bánh mochi truyền thống với nước sương sáo thơm ngon, mát lạnh, tạo nên một trải nghiệm ẩm thực độc đáo.</p>
+                                <a class="btn btn-primary" id="btn-7">Mua ngay</a>
+                              </div>
+                            </div>
+                      </div>
+
+                      <!-- hhết -->
+                      <div class="col-3">
+                        <p>Bingsu</p>
+                        <div class="card" style=" border-color: #687EFF;">
+                          <img src="img/k14.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                              <h5 class="card-title" style="font-size: 10px; transform: none;">Pudding Truyền thống</h5>
+                              <!-- giá nè -->
+                            <h5 style="font-size: 10px;">99.000đ</h5> 
+                              <!-- mô tả -->
+                              <p class="card-text" style="font-size: 10px;">Bánh mochi truyền thống với nước sương sáo thơm ngon, mát lạnh, tạo nên một trải nghiệm ẩm thực độc đáo.</p>
+                              <a class="btn btn-primary" id="btn-7">Mua ngay</a>
+                            </div>
+                          </div>
+                          <!-- card2 -->
+                          <br>
+                          <div class="card" style=" border-color: #687EFF;">
+                            <img src="img/k1.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title" style="font-size: 10px; transform: none;">Pudding Truyền thống</h5>
+                                <!-- giá nè -->
+                              <h5 style="font-size: 10px;">99.000đ</h5> 
+                                <!-- mô tả -->
+                                <p class="card-text" style="font-size: 10px;">Bánh mochi truyền thống với nước sương sáo thơm ngon, mát lạnh, tạo nên một trải nghiệm ẩm thực độc đáo.</p>
+                                <a class="btn btn-primary" id="btn-7">Mua ngay</a>
+                              </div>
+                            </div>
+                            <!-- card2 -->
+                          <br>
+                          <div class="card" style=" border-color: #687EFF;">
+                            <img src="img/k3.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title" style="font-size: 10px; transform: none;">Pudding Truyền thống</h5>
+                                <!-- giá nè -->
+                              <h5 style="font-size: 10px;">99.000đ</h5> 
+                                <!-- mô tả -->
+                                <p class="card-text" style="font-size: 10px;">Bánh mochi truyền thống với nước sương sáo thơm ngon, mát lạnh, tạo nên một trải nghiệm ẩm thực độc đáo.</p>
+                                <a class="btn btn-primary" id="btn-7">Mua ngay</a>
+                              </div>
+                            </div>
+                            <p></p>
+                      </div>
+<!-- tách ra nè -->
+                    </div>
+                  </div>
+              </div> <!-- hếtcol9 -->
+
+  <!-- tiíp -->
+                </div>
+              </div>
+              <br>
+<!-- cái dòng ngang -->
+<div class="container-fluid text-center">
+  <img src="img/line.png" style="width: 530PX;">
+  <p class="pmcb"><b>THÔNG TIN THANH TOÁN</b></p><HR style="width: 40%; margin: auto; height: 10PX;">
+</div>
+
+<!-- form nè -->
+<div class="container">
+  <form id="formne">
+   <!-- hàng 1 -->
+    <div class="row">
+
+      <div class="col">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label"><b>Họ và Tên</b></label>
+          <input type="text" class="form-control" id="name" aria-describedby="emailHelp">
+        </div>  
+
+      </div>
+      <div class="col">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label"><b>Số điện thoại</b></label>
+          <input type="email" class="form-control" id="sdt" aria-describedby="emailHelp">
+        </div>
+    
+      </div>
+      
+    </div>
+    <!-- ---hàng 2 -->
+    <div class="row">
+      <div class="col">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label"><b>Email</b></label>
+          <input type="email" class="form-control" id="mail" aria-describedby="emailHelp">
+  </div> 
+      </div>
+      <div class="col">  
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label"><b>Địa chỉ nhận hàng</b></label>
+          <input type="email" class="form-control" id="dchi" aria-describedby="emailHelp">
+        </div>
+      </div>
+      
+    </div>
+    <div class="mb-3">
+      <label for="exampleFormControlTextarea1" class="form-label"><b>Ghi chú</b></label>
+      <textarea class="form-control" id="gchu" rows="3"></textarea>
+    </div>
+  </form>
+  <br>
+  <div class="container-fluid" style="text-align: center;">
+    <button class="btn btn-success" id="btn-9" href="#" onclick="thongbaopopup2()">Xác nhận thanh toán</button>
+  <div class="tbpopup2" id="tbpopup-2">
+        <div class="tboverlay"></div>
+        <div class="tbcontent">
+        <div class="tbclose-btn" onclick="thongbaopopup2()">&times;</div>
+        <div class="content1" style="font-size:30px;font-weight:bold; height: 35px;">Thông tin đơn hàng</div><br>
+        <div class="content2" style="font-size:50px;font-weight:bold; color: rgb(255, 196, 0);"><img src="img/qr2.png" style="width: 270px;"></div><br>
+        <p class="p2">Cảm ơn bạn đã đặt hàng của shop, quét mã QR để cập nhật thông tin giao hàng nhé!</p>
+        </div>
+        </div>
+</div>
+<!-- hết cintainer -->
+</div>
+<!-- cái ấy -->
+
+        </main>
+        <footer>
+            <!-- place footer here -->
+  
+                <div class="container-fluid mt-5" style="background-color: #203cda;">
+                 <br>
+                  <div class="row" style="display: flex; flex-wrap: wrap;">
+                    <div class="col-1"></div>
+                    <div class="col colx">
+                      <h4>Hỗ trợ khách hàng</h4>
+				<ul>
+					<li><a href="#">Thẻ ưu đãi</a></li>
+					<li><a href="#">Báo cáo chất lượng</a></li>
+					<li><a href="#">Dịch vụ vận chuyển</a></li>
+					<li><a href="#">Đặt bánh riêng</a></li>
+            </ul>
+            <h4>Phương thức thanh toán</h4>
+            <div class="row">
+              <div class="col">
+                <img src="img/qr2.png" style="width: 30px;">
+                    <p style="color: #FEFFAC; font-size: 10px;">QR Code</p>
+              </div>
+              <div class="col">
+                <img src="img/tin.png" style="width: 30px;">
+                    <p style="color: #FEFFAC;font-size: 10px;">Tiền mặt</p>
+              </div>
+              <div class="col">
+                <img src="img/gop.png" style="width: 30px;">
+                    <p style="color: #FEFFAC;font-size: 10px;">PayLater</p>
+              </div>
+              <div class="col">
+                <img src="img/card.png" style="width: 30px;">
+                    <p style="color: #FEFFAC;font-size: 10px;">E-Bank</p>
+              </div>
+            </div>
+            <!-- thử -->
+            
+				
+            <!-- thử -->
+                    </div>
+                    <div class="col colx">
+                      <h4>Tiệm bánh Katarina</h4>
+				<ul>
+					<li><a href="#">Thông tin</a></li>
+					<li><a href="#">Cốt lõi - sứ mệnh</a></li>
+					<li><a href="#">Đối tác hợp tác</a></li>
+					<li><a href="#">Văn bản giấy phép</a></li>
+				</ul>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.3346024355073!2d106.70013657457498!3d10.7856644090242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31752f4baa197517%3A0x8872da8526a26f7c!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBLaG9hIGjhu41jIFjDoyBo4buZaSB2w6AgTmjDom4gdsSDbiwgxJDhuqFpIGjhu41jIFF14buRYyBnaWEgVFAuSENNIChDxqEgc-G7nyBRdeG6rW4gMSk!5e0!3m2!1svi!2s!4v1705423566902!5m2!1svi!2s" width="300" height="150" style="border:0; border-radius: 10px 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="col colx">
+                      <h4>Liên hệ hợp tác</h4>
+				<ul>
+					<li><a href="#">Phân phối sản phẩm</a></li>
+					<li><a href="#">Nhượng quyền</a></li>
+					<li><a href="#">Nhà cung cấp</a></li>
+					<li><a href="#">Cộng đồng</a></li>
+				</ul>
+        <br>
+        <br>
+        <a href="#" class="btn m-3" style="background-color: #FEFFAC;"><i data-feather="arrow-up-circle"></i>
+          <script>
+            feather.replace();
+          </script>Lên trên cùng</a>
+                    </div>
+                    <div class="col colx">
+                      <h4>Theo dõi tiệm</h4>
+				<div class="social-links">
+          <div class="row">
+            <div class="col">
+              <img src="img/l1.png" style="position: relative; width: 40px; margin:auto;">
+            </div>
+            <div class="col">
+              <img src="img/l3.png" style="position: relative; width: 40px; margin:auto;">
+            </div>
+            <div class="col">
+              <img src="img/l2.png" style="position: relative; width: 40px; margin:auto;">
+            </div>
+            
+          </div>
+         
+                    </div>
+                    <br>
+                    <h4 id="gthieu">Địa chỉ liên hệ</h4>
+                   <div class="col" style="color: #FEFFAC; font-size: 15px;">
+                     <p>Địa chỉ: 10-12 Đinh Tiên Hoàng, Phường Bến Nghé, Quận 1, TP.HCM</p>  
+                      <p>Số điện thoại: 0879154992</p>
+                      <p>Email: KatarinaCake@gmail.com</p>
+                   </div>
+                  </div>
+
+                  <div class="col colx">
+                    <img src="img/logo.png" style="width: 290px;">
+                  </div>
+<!-- hết nè ấy lại -->
+              
+        </footer>
+        <!-- Bootstrap JavaScript Libraries -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="/main.js"></script>
+    </body>
+</html>
